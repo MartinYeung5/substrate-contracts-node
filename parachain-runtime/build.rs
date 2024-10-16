@@ -9,6 +9,6 @@ fn main() {
 
 /// The wasm builder is deactivated when compiling
 /// this crate for wasm to speed up the compilation.
-#[cfg_attr(not(feature = "std"), no_std)]
-fn main() {}
+///#[cfg_attr(not(feature = "std"), no_std)]
+///fn main() {}
 
