@@ -1,4 +1,4 @@
-#[cfg(feature = "std")]
+#![cfg_attr(not(feature = "std"), no_std)]
 fn main() {
 	substrate_wasm_builder::WasmBuilder::new()
 		.with_current_project()
