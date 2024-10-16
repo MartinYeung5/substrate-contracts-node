@@ -7,5 +7,5 @@ fn main() {
 		.build()
 }
 
-#[cfg(not(feature = "std"))]
+#[cfg_attr(not(feature = "std"))]
 fn main() {}
